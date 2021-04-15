@@ -1,0 +1,31 @@
+.content {
+    display: block;
+    margin: auto;
+    width: 1140px;
+    text-align: center;
+}
+
+body {
+    font-family: josefin sans;
+    background-color: #839EA0;
+}
+
+
+article {
+    text-align: center;
+    padding: 22px;
+    -webkit-box-shadow: 2px 2px 8px 4px rgba(228, 228, 228, 0.44);
+    box-shadow: 2px 2px 8px 4px rgba(228, 228, 228, 0.44);
+    margin: 50px;
+    background-color: white;
+}
+
+img {
+    width: 10px;
+    transition: 5s;
+}
+
+img:hover {
+    width: 300px;
+    transition: 2s cubic-bezier(.14, 1.35, .99, -0.18);
+}
